@@ -38,7 +38,7 @@ b=Y_mean-m*X_mean
 print("Slope:",m)
 print("Y_intercept:",b)
 y_predicted=m*X+b
-print(y_predicted)
+print("THE Y PREDICTED VALUE =",y_predicted)
 plt.scatter(X,Y)
 plt.plot(X,y_predicted,color='red')
 plt.show()
